@@ -1,3 +1,11 @@
-print("RTFM (Read the F-ing manual)")
-print("RTFM (Read the F-ing manual)"1 2 3)
-print("RTFM (Read the F-ing manual)")
+import sys
+if len(sys.argv) ==2:
+    parameter = sys.argv[1]
+    user_input = input("what was the parameter? ")
+
+    if user_input == parameter:
+        print("Good job!")
+        else:
+            print("Nope, sorry...")
+    else:
+        print("none")
